@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 200px;
+}
+.home{
+    font-weight: 700;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-weight: 600;
+    margin: 20px;
+}
+.main{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.about{
+    color:#20bc7e;
+
+}
+.head{
+    margin: 30px;
+    color: #20BC7E;
+
+}
+.con{
+    text-align: center;
+    line-height: 25px;
+    font-weight: 500;
+    margin: 30px;
+    width: 600px;
+}
+
+
+.box{
+    display: flex;
+
+}
+
+.boxes{
+    border: 2px solid black;
+    margin: 30px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    
+}
+.num{
+    margin: 5px;
+    font-weight: 700;
+    color: #20BC7E;
+    font-size: 25px;
+}
+
+.data{
+    font-size: 20px;
+    font-weight: 500;
+}
